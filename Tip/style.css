@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(215, 233, 248);
+}
+.heading{
+    font-family: 'Source Code Pro', monospace;
+    background-color: rgb(215, 233, 248);
+    color:#055a69 ;
+    height: 80px;
+    font-size: 40px;
+    font-weight: 200;
+    text-align: center;
+    position: relative;
+    top:10px;
+}
+.container{
+    background-color: white;
+    margin: 40px 150px;
+    height:800px;
+    border-radius: 20px;
+    display: flex;
+}
+.numpad{
+    padding: 30px;
+    width:600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 70px;
+    border-radius: 20px;
+}
+#bill{
+    font-family:'Source Code Pro', monospace; 
+    font-size: 40px;
+    margin-left: 30px;
+    color:#055a69 ;
+}
+#dolor{
+    font-family:'Source Code Pro', monospace; 
+    font-size: 50px;
+    color:#055a69 ;
+}
+.people{
+    margin-left: 50px;
+}
+.numpad input{
+    height: 60px;
+    width:500px;
+    font-size: 40px;
+    text-align: right;
+}
+.display{
+    background-color: #055a69;
+    width:670px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    margin-right: 50px;}
+#percent{
+    font-family:'Source Code Pro', monospace; 
+    font-size: 40px;
+    margin-left: 30px;
+    color:#055a69 ;
+}
+.but{
+    margin-left: 40px;
+    display: flex;
+    border: 1px solid black;
+}
+.bu{
+    margin-right:30px;
+    margin-bottom: 20px;
+    height:70px;
+    width: 150px;
+    border-radius: 5px;
+    background-color:#055a69 ;
+    color: white;
+    font-size: 30px;
+    font-family:'Source Code Pro', monospace; 
+}
+.selected{
+    background-color:aliceblue;
+}
+.b1{
+    margin-left: 20px;
+}
+.neddvalue{
+    border: 3px solid red;
+}
+.tipammount{
+    display: flex;
+    position: relative;
+    top:80px;
+    left:40px;
+}
+.text1{
+    margin-right: 100px;
+    margin-left: 10px;
+}
+.per{
+    font-size: 25px;
+    font-family:'Source Code Pro', monospace;
+    color: aliceblue;
+}
+.text{
+    font-size: 40px;
+    font-family:'Source Code Pro', monospace;
+    color: white;
+}
+.num{
+    font-size: 80px;
+    color: white;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    color: #6fe2f7;
+}
+.tipammount1{
+    display: flex;
+    position: relative;
+    top: 140px;
+}
+.text2{
+    margin-right: 200px;
+    margin-left: 50px;
+}
+.disbut{
+    border: 1px solid #09c0e0;
+    border-radius: 10px;
+    position: relative;
+    font-size: 40px;
+    top:380px;
+    left:30px;
+    height:70px;
+    width:600px;
+    background-color: #09c0e0;
+    font-family:'Source Code Pro', monospace;
+    color:#03434e;
+}
